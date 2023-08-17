@@ -1,7 +1,6 @@
 import os
 from tkinter import Tk, Label, Button, filedialog, IntVar, Entry, Toplevel
 from moviepy.video.io.VideoFileClip import VideoFileClip
-import base64
 
 class VideoCutterApp:
     def __init__(self, root):
